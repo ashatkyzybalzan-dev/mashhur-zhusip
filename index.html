@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#13243a">
+  <meta name="description" content="Мәшһүр Жүсіп Көпейұлының өмірі, шығармашылығы және тарихи мұрасы туралы AI көмекші.">
+  <title>Мәшһүр Жүсіп AI — виртуалды тарихи сұхбат</title>
+  <style>
+    :root{--navy:#13243a;--blue:#2857a4;--gold:#d9a441;--paper:#f7f4ed;--ink:#1d2938;--muted:#667085;--line:#e4e7ec;--white:#fff}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--paper);color:var(--ink);min-height:100vh}
+    .topbar{background:var(--navy);color:#fff;padding:17px 22px}.topbar-inner{max-width:1100px;margin:auto;display:flex;align-items:center;gap:12px}.seal{width:42px;height:42px;display:grid;place-items:center;border:1px solid var(--gold);border-radius:50%;color:#f0c76c;font-size:22px}.brand{font-weight:750;letter-spacing:.2px}.subbrand{color:#c6d0dd;font-size:12px;margin-top:3px}
+    main{max-width:1100px;margin:34px auto;padding:0 18px 30px;display:grid;grid-template-columns:300px minmax(0,1fr);gap:22px}.intro,.chat-card{background:var(--white);border:1px solid var(--line);border-radius:20px;box-shadow:0 10px 30px #13243a0a}.intro{overflow:hidden;align-self:start}
+    .portrait{min-height:240px;padding:22px;display:flex;align-items:end;color:#fff;background:linear-gradient(180deg,#13243a12,#13243aee),linear-gradient(135deg,#7c8b9a,#24384d 55%,#a17a43)}.portrait h1{font-family:Georgia,serif;font-size:27px;line-height:1.15;margin:0}
+    .intro-body{padding:20px}.eyebrow{text-transform:uppercase;letter-spacing:1.4px;color:#956b1b;font-size:11px;font-weight:800}.intro p{color:#536071;line-height:1.65;font-size:14px}.fact{border-top:1px solid var(--line);padding:12px 0;font-size:13px;display:flex;justify-content:space-between;gap:12px}.fact strong{text-align:right}.disclaimer{background:#f8f2e4;border-radius:12px;padding:12px;font-size:12px;color:#66512b;line-height:1.5}
+    .chat-card{display:flex;flex-direction:column;min-height:700px;overflow:hidden}.chat-head{padding:20px 22px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:12px}.chat-head h2{margin:0;font-size:18px}.status{color:#27734d;font-size:12px;display:flex;align-items:center;gap:7px;white-space:nowrap}.dot{width:7px;height:7px;background:#32a66a;border-radius:50%}
+    .suggestions{padding:16px 20px 4px;display:flex;flex-wrap:wrap;gap:8px}.suggestion{border:1px solid #d5dfed;background:#f8fbff;color:#28466e;border-radius:999px;padding:9px 12px;cursor:pointer;font-size:12px}.suggestion:hover{background:#eaf2ff}
+    #messages{padding:20px;flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:14px;min-height:280px;max-height:490px}.message{max-width:88%;padding:13px 15px;border-radius:16px;line-height:1.6;font-size:14px;white-space:pre-wrap;overflow-wrap:anywhere}.assistant{align-self:flex-start;background:#f0f3f7;border-bottom-left-radius:5px}.user{align-self:flex-end;background:var(--navy);color:#fff;border-bottom-right-radius:5px}.typing{color:var(--muted);font-size:13px;padding:0 20px 10px;display:none}.composer{border-top:1px solid var(--line);padding:16px;display:flex;gap:10px;align-items:flex-end}textarea{flex:1;resize:vertical;min-height:48px;max-height:140px;border:1px solid #d0d5dd;border-radius:13px;padding:13px 14px;font:inherit;font-size:14px;outline:none}textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px #2857a41c}.send{border:0;background:var(--blue);color:#fff;border-radius:13px;min-height:48px;padding:0 18px;font-weight:700;cursor:pointer}.send:disabled{opacity:.5;cursor:not-allowed}.foot{color:#7a8492;text-align:center;font-size:11px;padding:0 16px 16px}.clear{border:1px solid var(--line);background:#fff;padding:8px 11px;border-radius:9px;color:#526071;cursor:pointer;font-size:12px}
+    @media(max-width:780px){main{grid-template-columns:1fr;margin:18px auto}.intro{display:grid;grid-template-columns:120px 1fr}.portrait{min-height:100%;padding:12px}.portrait h1{font-size:19px}.intro-body{padding:15px}.intro-body p{margin:8px 0}.fact{padding:7px 0}.disclaimer{margin-top:10px}.chat-card{min-height:650px}.chat-head{padding:16px}#messages{max-height:430px}}
+    @media(max-width:430px){.intro{display:block}.portrait{min-height:180px}.message{max-width:95%}.composer{padding:11px}.send{padding:0 13px}}
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="topbar-inner"><div class="seal" aria-hidden="true">✦</div><div><div class="brand">МӘШҺҮР ЖҮСІП AI</div><div class="subbrand">Виртуалды тарихи сұхбаттасушы</div></div></div></header>
+  <main>
+    <aside class="intro"><div class="portrait"><h1>Мәшһүр Жүсіп<br>Көпейұлы</h1></div><div class="intro-body"><div class="eyebrow">Тарихи мұра · AI көмекші</div><p>Қазақтың ақыны, ағартушысы, шежірешісі әрі халық мұрасын жинаушысының өмірі мен шығармашылығын зертте.</p><div class="fact"><span>Өмір сүрген жылдары</span><strong>1858–1931</strong></div><div class="fact"><span>Негізгі бағыт</span><strong>Өмірі мен мұрасы</strong></div><div class="fact"><span>Сұхбат тілі</span><strong>Қазақша</strong></div><div class="disclaimer">Бұл — тарихи деректер негізінде жауап беретін жасанды интеллект. Ол Мәшһүр Жүсіптің өзі емес және оның атынан айтылған жаңа дәйексөздер ұсынбайды.</div></div></aside>
+    <section class="chat-card" aria-label="AI чат"><div class="chat-head"><div><h2>Тарихи сұхбат</h2><div style="color:#778191;font-size:12px;margin-top:5px">Сұрағыңды жазып, зерттеуді баста</div></div><button class="clear" id="clearBtn" type="button">Чатты тазарту</button></div>
+      <div class="suggestions"><button class="suggestion" type="button">Мәшһүр Жүсіп кім?</button><button class="suggestion" type="button">Негізгі шығармалары қандай?</button><button class="suggestion" type="button">Кесенесінің маңызы неде?</button><button class="suggestion" type="button">Ғылыми жобаға жоспар ұсын</button></div>
+      <div id="messages" aria-live="polite"><div class="message assistant">Сәлем! Мен — «Мәшһүр Жүсіп AI» тарихи көмекшісімін. Мәшһүр Жүсіп Көпейұлының өмірі, шығармалары, тарихи мұрасы немесе кесенесі туралы сұрағыңды қой. Бірге зерттейік!</div></div>
+      <div class="typing" id="typing">Жауап дайындалып жатыр…</div><form class="composer" id="chatForm"><textarea id="question" maxlength="4000" placeholder="Мысалы: Мәшһүр Жүсіптің қазақ мәдениетіне қосқан үлесі қандай?" aria-label="Сұрағыңыз" required></textarea><button class="send" id="sendBtn" type="submit">Жіберу</button></form><div class="foot">Жауаптарды ғылыми жұмыста қолданар алдында сенімді дереккөздермен тексер.</div>
+    </section>
+  </main>
+  <script>
+    const messagesEl=document.getElementById('messages'),form=document.getElementById('chatForm'),questionEl=document.getElementById('question'),sendBtn=document.getElementById('sendBtn'),typingEl=document.getElementById('typing');
+    const chatHistory=[];
+    function addMessage(role,content){const node=document.createElement('div');node.className='message '+role;node.textContent=content;messagesEl.appendChild(node);messagesEl.scrollTop=messagesEl.scrollHeight;}
+    async function sendMessage(text){const clean=text.trim();if(!clean||sendBtn.disabled)return;addMessage('user',clean);chatHistory.push({role:'user',content:clean});questionEl.value='';sendBtn.disabled=true;typingEl.style.display='block';
+      try{const response=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:chatHistory.slice(-12)})});const data=await response.json().catch(()=>({}));if(!response.ok)throw new Error(data.error||'Серверге қосылу мүмкін болмады.');const answer=data.answer||'Жауап алынбады. Қайталап көр.';chatHistory.push({role:'assistant',content:answer});addMessage('assistant',answer);}
+      catch(error){addMessage('assistant','Қате: '+error.message);chatHistory.pop();}
+      finally{sendBtn.disabled=false;typingEl.style.display='none';questionEl.focus();}}
+    form.addEventListener('submit',e=>{e.preventDefault();sendMessage(questionEl.value)});
+    document.querySelectorAll('.suggestion').forEach(b=>b.addEventListener('click',()=>sendMessage(b.textContent)));
+    document.getElementById('clearBtn').addEventListener('click',()=>{chatHistory.length=0;messagesEl.replaceChildren();addMessage('assistant','Чат тазартылды. Мәшһүр Жүсіп туралы жаңа сұрағыңды қоя бер!');questionEl.focus()});
+    questionEl.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();form.requestSubmit()}});
+  </script>
+</body>
+</html>
